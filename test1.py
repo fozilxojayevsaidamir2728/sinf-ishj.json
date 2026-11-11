@@ -10,3 +10,9 @@ for branch in branches:
     print(branch["name"])
 
 
+# 2. Faqat Python o'qituvchilari
+for branch in branches:
+    for teacher in branch["teachers"]:
+        if teacher["subject"] == "pyton":
+            print(teacher["name"], branch["name"], teacher["experience"])
+
