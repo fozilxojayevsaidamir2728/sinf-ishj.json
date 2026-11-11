@@ -16,3 +16,6 @@ for branch in branches:
         if teacher["subject"] == "pyton":
             print(teacher["name"], branch["name"], teacher["experience"])
 
+# 3. Har bir branchda nechta o'quvchi bor
+for branch in branches:
+    print(branch["name"], len(branch["students"]))
